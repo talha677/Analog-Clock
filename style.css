@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+2&family=Lobster&family=Poppins&family=Roboto&family=Shadows+Into+Light&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./img-src/Screenshot\ 2023-11-09\ 205633.jpg") no-repeat center center/cover;
+    height: 913px;
+
+}
+
+.navbar {
+    background-color: #399cb9;
+    height: 60px;
+    width: 100vw;
+    margin: auto;
+    border-bottom: 3px solid white;
+
+}
+
+h3 {
+    font-family: "Agbalumo", sans-serif;
+    margin: auto;
+    width: 250px;
+    font-size: 2rem;
+}
+
+#clockcontainer {
+    position: relative;
+    height: 50vw;
+    width: 50vw;
+    margin: auto;
+    position: relative;
+    top: 13vh;
+    background: url("./img-src/clock.png") no-repeat center center/cover;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1%;
+    height: 30%;
+    top: 20%;
+    left: 49.30%;
+    opacity: 0.8;
+    background-color: rgb(146, 144, 144);
+    border: 2px solid black;
+}
+
+#minute {
+    width: 1%;
+    height: 35%;
+    top: 15%;
+    left: 49.30%;
+    opacity: 0.8;
+    background-color: rgb(146, 144, 144);
+    border: 2px solid black;
+}
+
+#second {
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.30%;
+    opacity: 0.8;
+    background-color: rgb(252, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.circle {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    height: 3%;
+    width: 3%;
+    border-radius: 50%;
+    position: absolute;
+    top: 48.35%;
+    left: 48.45%;
+}
